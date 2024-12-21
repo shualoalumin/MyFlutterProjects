@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 
 class FirstScreen extends StatefulWidget {
+  const FirstScreen({super.key});
+
   @override
   State<FirstScreen> createState() => _FirstScreenState();
 }
@@ -13,7 +15,7 @@ class _FirstScreenState extends State<FirstScreen> {
     return Scaffold(
       appBar: AppBar(
         title: Text('First Page'),
-        leading: Icon(Icons.pets),
+        // leading: Icon(Icons.pets),
         backgroundColor: Colors.blue,
         centerTitle: true,
       ),
