@@ -9,6 +9,12 @@
       <excludeFolder url="file://$MODULE_DIR$/setup_example/.dart_tool" />
       <excludeFolder url="file://$MODULE_DIR$/setup_example/.pub" />
       <excludeFolder url="file://$MODULE_DIR$/setup_example/build" />
+      <excludeFolder url="file://$MODULE_DIR$/english_words/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/english_words/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/english_words/build" />
+      <excludeFolder url="file://$MODULE_DIR$/next_snap/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/next_snap/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/next_snap/build" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
