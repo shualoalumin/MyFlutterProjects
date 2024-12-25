@@ -4,10 +4,10 @@ class OnboardingScreen extends StatefulWidget {
   const OnboardingScreen({super.key});
 
   @override
-  _OnboardingScreenState createState() => _OnboardingScreenState();
+  OnboardingScreenState createState() => OnboardingScreenState();
 }
 
-class _OnboardingScreenState extends State<OnboardingScreen> {
+class OnboardingScreenState extends State<OnboardingScreen> {
   final PageController _pageController = PageController();
   int _currentPage = 0;
 
@@ -110,7 +110,8 @@ class OnboardingPage extends StatelessWidget {
   final String description;
   final String image;
 
-  const OnboardingPage({super.key, 
+  const OnboardingPage({
+    super.key,
     required this.title,
     required this.description,
     required this.image,

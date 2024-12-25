@@ -124,7 +124,7 @@ class HomeScreen extends StatelessWidget {
                   Text(
                     "3 min ago",
                     style: TextStyle(
-                      color: Colors.white.withOpacity(0.8),
+                      color: Colors.white,
                       fontSize: 12,
                     ),
                   ),

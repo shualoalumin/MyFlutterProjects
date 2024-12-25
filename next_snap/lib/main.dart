@@ -7,7 +7,8 @@ import 'bookmark_page.dart';
 import 'search_page.dart';
 import 'media_collection_page.dart';
 import 'settings_page.dart';
-import 'splash_screen.dart';
+import 'SplashScreen.dart';
+import 'article_page.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 
 void main() {
@@ -38,6 +39,10 @@ class MyApp extends StatelessWidget {
       routes: {
         '/': (context) => SplashScreen(),
         '/main': (context) => MainPage(),
+        '/article': (context) => ArticlePage(title: '', content: ''),
+        '/settings': (context) => SettingsPage(),
+        '/bookmarks': (context) => BookmarkPage(),
+        '/home': (context) => HomeScreen(),
       },
       locale: themeProvider.locale,
       supportedLocales: [
