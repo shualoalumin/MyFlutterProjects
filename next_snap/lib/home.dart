@@ -26,7 +26,7 @@ class HomeScreen extends StatelessWidget {
             _buildHeadlineNews(context),
             SizedBox(height: 30),
             Text(
-              "Latest News",
+              AppLocalizations.of(context).translate('Latest News'),
               style: TextStyle(
                 fontSize: 16,
                 color: Colors.grey,
