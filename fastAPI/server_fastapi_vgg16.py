@@ -10,10 +10,10 @@ app = FastAPI()
 # CORS 설정
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],  # 특정 도메인을 명시하거나 "*"로 모든 요청 허용
+    allow_origins=["*"],  
     allow_credentials=True,
-    allow_methods=["*"],  # 모든 HTTP 메서드 허용
-    allow_headers=["*"],  # 모든 HTTP 헤더 허용
+    allow_methods=["*"],  
+    allow_headers=["*"],  
 )
 
 @app.post("/upload/")
