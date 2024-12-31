@@ -1,0 +1,7 @@
+/lib
+├── main.dart              # 앱의 엔트리 포인트
+├── gallery_page.dart      # 갤러리 페이지
+├── camera_page.dart       # 카메라 페이지
+├── photo_detail_page.dart # 사진 상세 페이지
+├── photo_saver.dart       # 사진 저장 유틸리티
+├── photo.dart             # Photo 데이터 클래스
