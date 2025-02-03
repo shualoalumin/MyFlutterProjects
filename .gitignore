@@ -34,3 +34,5 @@ Thumbs.db
 *.bak
 *.swp 
 fastAPI/venv/Lib/
+
+network_programming/android/gradle/wrapper/gradle-wrapper.properties
