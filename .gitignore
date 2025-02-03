@@ -1,0 +1,36 @@
+ # Python 관련
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+*.egg
+*.egg-info/
+dist/
+build/
+*.so
+
+# 가상 환경
+venv/
+
+# 환경 설정 파일
+.env
+*.env
+
+# IDE 관련
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# 운영체제 관련
+.DS_Store
+Thumbs.db
+
+# 로그 파일
+*.log
+
+# 기타
+*.bak
+*.swp 
+fastAPI/venv/Lib/
