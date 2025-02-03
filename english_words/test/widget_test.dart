@@ -8,11 +8,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 
-import 'package:english_words/main.dart';
-
 void main() {
   testWidgets('Counter increments smoke test', (WidgetTester tester) async {
-    // Build our app and trigger a frame.
+    // 앱을 빌드하고 프레임을 트리거합니다.
     await tester.pumpWidget(const MyApp());
 
     // Verify that our counter starts at 0.
